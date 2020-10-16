@@ -5,6 +5,9 @@ import (
 	go_hello "github.com/shandysiswandi/go-hello"
 )
 
-func main()  {
+func main() {
 	fmt.Println(go_hello.SayHello())
+
+	fmt.Println(go_hello.SayHelloWorld())
+
 }
